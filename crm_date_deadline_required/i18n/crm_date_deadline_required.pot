@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+# 	* crm_date_deadline_required
 #
 msgid ""
 msgstr ""
@@ -11,3 +12,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+
+#. module: crm_date_deadline_required
+#: model:ir.model,name:crm_date_deadline_required.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr ""
+
+#. module: crm_date_deadline_required
+#. odoo-python
+#: code:addons/crm_date_deadline_required/models/crm_lead.py:0
+#: code:addons/crm_date_deadline_required/models/crm_lead.py:0
+#, python-format
+msgid "The expected closing date is required for opportunities."
+msgstr ""
